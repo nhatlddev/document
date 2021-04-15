@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle"
+            >
+            <stroke
+                android:width="10dp"
+                android:color="@color/limegreen"
+                />
+            <corners
+                android:radius="@dimen/d_10dp"
+                />
+        </shape>
+    </item>
+    <item>
+        <inset
+            android:drawable="@drawable/icon_traffic"
+            android:inset="10dp"
+            />
+    </item>
+</layer-list>
