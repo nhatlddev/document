@@ -84,7 +84,7 @@ double lastFreqSample = 0;
 unsigned long stableStart = 0;
 double stableFreq = 0;
 
-const unsigned long BTN_DEBOUNCE = 200;
+const unsigned long BTN_DEBOUNCE = 50;
 
 const unsigned long STEP_DELAY_US = 1200;
 
